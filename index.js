@@ -9,6 +9,4 @@ app.use(bodyParser.json());
 
 userRoute(app)
 
-app.get('/', (req, res) => res.send('Olá mundo pelo express!'))
-
 app.listen(port, () => console.log('Api rodando na porta 3000'))
